@@ -15,7 +15,7 @@ function App() {
       <NavBar />
       <Router>
         <HomePage path="/" />
-        <StudentList path="/students" />
+        <StudentList path="/students/*" />
       </Router>
       <Footer />
     </>
